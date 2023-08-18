@@ -27,6 +27,15 @@ background: linear-gradient(90deg, rgba(249,95,61,1) 0%, rgba(249,95,61,1) 32%, 
   width: 90%;
   width: 450px;
 }
+@media(max-width:500px){
+  .container{
+    width: 300px;
+  }
+  .generate-button{
+    margin-left: -28px;
+  }
+
+}
 
 h1 {
   color: #f5eb65;
